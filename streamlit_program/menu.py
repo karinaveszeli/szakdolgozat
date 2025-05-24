@@ -13,25 +13,25 @@ st.markdown("""
 
 # --- OLDALAK DEFINIÁLÁSA ---
 main_page = st.Page(
-    page="pages/main_page.py",
+    page="streamlit_app/pages/main_page.py",
     title="Főoldal",
     icon=":material/home:",
     default=True
 )
 
 project_1_page = st.Page(
-    page="pages/vbpsolver_page.py",
+    page="streamlit_app/pages/vbpsolver_page.py",
     title="Algoritmusfuttató alkalmazás",
     icon=":material/package_2:"
 )
 
 project_2_page = st.Page(
-    page="pages/benchmark_page.py",
+    page="streamlit_app/pages/benchmark_page.py",
     title="Benchmark Generálás",
     icon=":material/bar_chart:"
 )
 project_3_page = st.Page(
-    page="pages/lowerbounds_page.py",
+    page="streamlit_app/pages/lowerbounds_page.py",
     title="Alsó Korlát Számítás",
     icon=":material/bar_chart:"
 )
