@@ -21,7 +21,7 @@ main_page = st.Page(
 
 project_1_page = st.Page(
     page="pages/vbpsolver_page.py",
-    title="Algoritmus megoldó program",
+    title="Algoritmusfuttató alkalmazás",
     icon=":material/package_2:"
 )
 
