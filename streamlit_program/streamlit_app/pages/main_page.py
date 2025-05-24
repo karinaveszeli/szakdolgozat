@@ -11,7 +11,7 @@ A fő funkciók:
 - 🔄 **Algoritmusok futtatása egy fájlon**  
   Egy feltöltött bemeneti fájlon lefuttathatók az implementált algoritmusok, az eredmények (ládaszám) azonnal megjelennek.
 
-- 🧾 **Benchmark példák összeállítása**  
+- 🧾 ** Tesztpéldány Generátor**  
   Egyedi eloszlású és méretű tesztpéldák generálása különböző dimenziószámokra.
 
 - 📉 **Alsó korlát számítása**  

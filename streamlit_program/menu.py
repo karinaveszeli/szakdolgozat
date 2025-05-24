@@ -27,7 +27,7 @@ project_1_page = st.Page(
 
 project_2_page = st.Page(
     page="streamlit_app/pages/benchmark_page.py",
-    title="Benchmark Generálás",
+    title=" Tesztpéldány Generátor",
     icon=":material/bar_chart:"
 )
 project_3_page = st.Page(

@@ -9,7 +9,7 @@ def benchmark_generalas(elemek_szama, intervallumok):
         for _ in range(elemek_szama)
     ]
 
-st.title(" Benchmark Generáló Alkalmazás")
+st.title("Tesztpéldány Készítő Alkalmazás")
 
 
 if "szakaszok" not in st.session_state:
@@ -49,7 +49,7 @@ for i, szakasz in enumerate(st.session_state.szakaszok):
 
 
 # Benchmark generálás
-if st.button("Benchmark generálása"):
+if st.button("Tesztpéldány generálása"):
     osszes_elem = []
     for szakasz in st.session_state.szakaszok:
         adatok = benchmark_generalas(szakasz["elemek_szama"], szakasz["intervallumok"])
@@ -70,8 +70,8 @@ if st.button("Benchmark generálása"):
         # Letöltés
         csv = df.to_csv(index=False, sep=';').encode("utf-8")
         st.download_button(
-            label="Benchmark letöltése CSV formátumban",
+            label="Tesztpéldány letöltése CSV formátumban",
             data=csv,
-            file_name="benchmark.csv",
+            file_name="test.csv",
             mime="text/csv"
         )
